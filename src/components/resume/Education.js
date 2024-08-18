@@ -19,9 +19,21 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Bachelor of Engineering in Electrical and Electronics Engineering"
-            subTitle="M S Ramaiah Institute of Tecnology, Bangalore (Dec 2020 - Present)"
-            result="7.57 CGPA(VIth Sem)"
+            title="Software Engineer-I"
+            subTitle="Myntra Designs Private Ltd. , Bangalore (July 2024 - Present)"
+            result="Search Ecosystem"
+            //des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+          />
+          <ResumeCard
+            title="Software Developer Intern"
+            subTitle="Myntra Designs Private Ltd. , Bangalore (Jan 2024 - Jun 2024)"
+            result="Data Platform"
+            //des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+          />
+          <ResumeCard
+            title="B.E in Electrical and Electronics Engineering"
+            subTitle="M S Ramaiah Institute of Tecnology, Bangalore (Dec 2020 - May 2024)"
+            result="7.58 CGPA"
             //des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard

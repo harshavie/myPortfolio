@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/images/Avaneesh_Ray_CV_Updated.pdf";
+import CV from "../../assets/images/Avaneesh_Ray_Resume.pdf";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
   //FaGithub,
@@ -14,11 +14,7 @@ import { SiExpress, SiMongodb } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: [
-      "Front-End Developer.",
-      "Back-End Developer.",
-      "Full Stack Developer.",
-    ],
+    words: ["Software Engineer.", "Full Stack Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -43,11 +39,11 @@ const LeftBanner = () => {
           className="text-base font-bodyFont leading-6 tracking-wide"
           style={{ "text-align": "justify" }}
         >
-          I'm a currently a final year student who pursuing his bachelors and
-          having a major interest in web devlopment. Therefore creating projects
-          and extending my knowledge in the web domain makes up most of my days.
-          And in my leisure time I love to play Football, cook food and play PC
-          games.
+          I'm a currently a <b>Software Engineer @ Myntra</b>. I love Software
+          Development and creating projects based on Frameworks and libraries
+          like that of Java, Javascript which thereby helps to extend my
+          knowledge in the web domain. In my leisure time I love to play
+          Football, Cook Food and play PC games like valorant.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -78,7 +74,7 @@ const LeftBanner = () => {
             <span className="w-full bannerIcon">
               <a
                 href={CV}
-                download="Avaneesh_Ray_CV"
+                download="Avaneesh_Ray_Resume"
                 target="_blank"
                 rel="noreferrer"
               >

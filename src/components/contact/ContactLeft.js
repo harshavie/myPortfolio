@@ -12,9 +12,7 @@ const ContactLeft = () => {
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Avaneesh Ray</h3>
-        <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
-        </p>
+        <p className="text-lg font-normal text-gray-400">Software Engineer</p>
         {/* <p className="text-base text-gray-400 tracking-wide">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
           ipsam autem cumque, accusantium dicta odio.
